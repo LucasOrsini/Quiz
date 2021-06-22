@@ -1,0 +1,44 @@
+/**/
+* {
+      margin: 0;
+      padding: 0;
+      font-size: 28px;
+    }
+    menu {
+      background: gray;
+      grid-area: menu;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button1{
+      padding: 15px;
+      margin-top: 5px;
+      width: 100vw;
+      color: white;
+      background: lightseagreen;
+      border: blue;
+      font-size: 20px;
+      }
+      .container {
+      display: grid;
+      grid-template-columns: 1.5fr 2.5fr;
+      grid-template-rows: 10vh 80vh 10vh;
+      grid-template-areas: "menu menu" "header header" "footer footer";
+      }
+    header {
+      background-color: lightblue;
+      grid-area: header;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    footer {
+      color: white;
+      background-color: black;
+      grid-area: footer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
